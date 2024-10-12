@@ -13,10 +13,26 @@ class AnalistaTexto:
         self.model = genai.GenerativeModel(self.gemini_model)
     
     def melhorar_documentacao(self,texto,tema):
-        prompt = f"""Você é um especialista em {tema} e recebeu uma prova com 10 perguntas marcadas com tags HTML
+        prompt = f"""
+Você é um especialista em {tema} e recebeu uma prova com 10 perguntas formatadas em tags HTML no formato de [HTML, XML, etc.].
 
-    aqui está prova {texto}
-    Sua missão é responder corretamente a todas as perguntas.
+**Prova:** {texto}
+
+**Sua missão:** Responder a todas as perguntas de forma [básica, intermediária, avançada], apresentando as respostas em formato de lista numerada. Para cada pergunta, inclua:
+
+* **Questão (Número):** A pergunta original, copiada exatamente como aparece na prova.
+* **Interpretação:** Uma breve explicação da sua compreensão da pergunta, destacando qualquer ambiguidade.
+* **Resposta:** A resposta correta e completa.
+* **Justificativa:** Uma explicação detalhada do raciocínio por trás da resposta, incluindo referências a conceitos relevantes e exemplos.
+
+**Exemplo de Resposta:**
+
+1. **Questão (1):** Qual a capital da França?
+   * **Interpretação:** A pergunta busca identificar a cidade principal da França.
+   * **Resposta:** Paris.
+   * **Justificativa:** Paris é a cidade mais populosa da França e sede do governo francês.
+
+**Observação:** Caso a pergunta seja aberta ou tenha múltiplas respostas corretas, apresente todas as opções válidas e justifique sua escolha.
 
  """
         resposta = self.model.generate_content(
