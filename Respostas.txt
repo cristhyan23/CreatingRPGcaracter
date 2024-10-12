@@ -1,0 +1,54 @@
+## Respostas para a Prova de Fundamentos de Redes de Computadores
+
+Aqui estão as respostas para as 10 perguntas da prova, baseadas nos seus conhecimentos de fundamentos de redes de computadores:
+
+**1. (D) FTP; SMTP; HTTP.**
+
+* A camada de aplicação da arquitetura TCP/IP lida com protocolos que fornecem serviços diretos aos usuários. FTP (File Transfer Protocol), SMTP (Simple Mail Transfer Protocol) e HTTP (Hypertext Transfer Protocol) são protocolos comuns nessa camada, usados para transferência de arquivos, envio de e-mail e navegação na web, respectivamente. 
+
+**2. (D) No CSMA/DC as colisões são evitadas.**
+
+*  CSMA/CD (Carrier Sense Multiple Access with Collision Detection) é um protocolo que utiliza detecção de colisão para minimizar colisões. Ao detectar uma colisão, a transmissão é interrompida, evitando que mais dados sejam enviados no meio compartilhado.
+
+**3. (D) I - disponibilidade<br>II - confidencialidade<br>III - integridade**
+
+* **Disponibilidade:**  Garante que a informação esteja acessível aos usuários autorizados quando necessário.
+* **Confidencialidade:**  Assegura que apenas usuários autorizados tenham acesso à informação.
+* **Integridade:**  Assegura que a informação não seja alterada indevidamente, garantindo sua precisão e confiabilidade.
+
+**4. (C) Unidade de Dados de Protocolo**
+
+* No processo de encapsulamento, cada camada adiciona seu próprio cabeçalho à informação da camada superior. A unidade lógica resultante, contendo a informação da camada superior e o cabeçalho da camada atual, é chamada de Unidade de Dados de Protocolo (PDU).
+
+**5. (D) ARP é responsável por realizar a tradução do endereço lógico para o endereço físico.**
+
+* ARP (Address Resolution Protocol) é um protocolo que traduz endereços IP (lógicos) em endereços MAC (físicos) para que a comunicação possa ocorrer na rede.
+
+**6. (A) Transporte.**
+
+* A camada de transporte da arquitetura TCP/IP é responsável por fornecer serviços confiáveis ou não confiáveis à camada de aplicação. Ela gerencia a comunicação entre processos (aplicativos) em hosts diferentes.
+
+**7. (B) Vetor de Distâncias (Distance Vector) e Estado de Enlace (Link State)**
+
+* RIP (Routing Information Protocol) é um protocolo de roteamento baseado em vetor de distâncias, onde cada roteador compartilha informações sobre seus vizinhos e distâncias para outros roteadores. 
+* OSPF (Open Shortest Path First) é um protocolo de roteamento baseado em estado de enlace, onde cada roteador possui um mapa completo da topologia da rede e calcula o caminho mais curto para cada destino.
+
+**8. (D) Perda da conexão dos datagramas.**
+
+* Redes de datagramas, como o IP, enviam pacotes de forma independente. 
+*  As seguintes são problemas comuns:
+    * **Datagramas chegarem com erro:** Corrupção dos dados durante a transmissão.
+    * **Datagramas chegarem fora de ordem:**  Os datagramas podem seguir diferentes rotas, levando a uma ordem de chegada diferente.
+    * **Duplicação de datagramas:**  Um datagrama pode ser copiado durante a transmissão, resultando em múltiplas cópias chegando ao destino.
+    * **Perda de datagramas:**  Um datagrama pode ser descartado durante a transmissão,  devido a congestionamento ou erros.
+
+**9. (E) Segmento**
+
+* A PDU (Protocol Data Unit) do protocolo TCP é chamada de segmento.
+
+**10. (B) A arquitetura peer-to-peer é mais escalável, embora seu gerenciamento seja mais complexo que na arquitetura cliente/servidor.**
+
+* **Arquitetura Cliente/Servidor:**  Um servidor centralizado atende a vários clientes. É mais fácil de gerenciar, mas menos escalável. 
+* **Arquitetura Peer-to-Peer:**  Os nós da rede atuam como clientes e servidores ao mesmo tempo, sem um servidor central. É mais escalável, mas mais complexa de gerenciar.
+
+**Lembre-se:** As respostas acima podem variar ligeiramente dependendo do contexto específico da prova e de como a questão é formulada. É importante revisar os conceitos e as definições para garantir uma compreensão profunda dos tópicos abordados. 
