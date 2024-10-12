@@ -1,54 +1,80 @@
-## Respostas para a Prova de Fundamentos de Redes de Computadores
+## Respostas da Prova de Engenharia de Software
 
-Aqui estão as respostas para as 10 perguntas da prova, baseadas nos seus conhecimentos de fundamentos de redes de computadores:
+A prova apresenta 10 perguntas sobre Engenharia de Software, com alternativas de resposta em HTML.  Vou analisar cada questão e apresentar a resposta correta, com justificativas:
 
-**1. (D) FTP; SMTP; HTTP.**
+**Questão 1:**
 
-* A camada de aplicação da arquitetura TCP/IP lida com protocolos que fornecem serviços diretos aos usuários. FTP (File Transfer Protocol), SMTP (Simple Mail Transfer Protocol) e HTTP (Hypertext Transfer Protocol) são protocolos comuns nessa camada, usados para transferência de arquivos, envio de e-mail e navegação na web, respectivamente. 
+* **Pergunta:** Na fase inicial de um projeto de software, a definição clara de objetivos é fundamental. Isso ajuda a equipe a manter o foco e a direção, além de facilitar a medição do progresso e do sucesso do projeto. Qual é a chave para o sucesso na fase inicial de um projeto de software?
+* **Resposta Correta:** **B) Definição de objetivos.**
+* **Justificativa:** A definição clara dos objetivos é essencial para garantir que o projeto esteja alinhado com as necessidades do cliente e que o desenvolvimento seja direcionado para o sucesso.
 
-**2. (D) No CSMA/DC as colisões são evitadas.**
+**Questão 2:**
 
-*  CSMA/CD (Carrier Sense Multiple Access with Collision Detection) é um protocolo que utiliza detecção de colisão para minimizar colisões. Ao detectar uma colisão, a transmissão é interrompida, evitando que mais dados sejam enviados no meio compartilhado.
+* **Pergunta:**  No contexto da etapa de projeto do processo de desenvolvimento de software, avalie a relação entre os conceitos e definições a seguir: 
+* **Resposta Correta:** **E) [1][A] - [2][B] - [3][C].**
+* **Justificativa:**
+    * **Implantação ([A]):**  Etapa do processo de desenvolvimento de software relacionada com a transferência do sistema da comunidade de desenvolvimento para a comunidade de usuários.
+    * **Manutenção ([B]):**  Permite a modificação de um software existente a partir de alterações significativas nas regras de negócio.
+    * **Reengenharia de software ([C]):**  Inclui a correção de defeitos não identificados nas etapas anteriores do processo de desenvolvimento de software.
 
-**3. (D) I - disponibilidade<br>II - confidencialidade<br>III - integridade**
+**Questão 3:**
 
-* **Disponibilidade:**  Garante que a informação esteja acessível aos usuários autorizados quando necessário.
-* **Confidencialidade:**  Assegura que apenas usuários autorizados tenham acesso à informação.
-* **Integridade:**  Assegura que a informação não seja alterada indevidamente, garantindo sua precisão e confiabilidade.
+* **Pergunta:** Ao analisar a aplicação da prototipação em seus projetos de software, decidiu-se utilizar um processo que define 4 etapas para o desenvolvimento de protótipos: I. Avaliar Protótipo. II. Estabelecer Objetivos do Protótipo. III. Desenvolver o Protótipo. IV. Definir a Funcionalidade do Protótipo. A ordem sequencial correta para a execução dessas quatro etapas é: 
+* **Resposta Correta:** **B) II, IV, III e I.**
+* **Justificativa:** A ordem lógica para o desenvolvimento de um protótipo é:
+    1. **Estabelecer Objetivos do Protótipo (II):** Definir o propósito e o escopo do protótipo.
+    2. **Definir a Funcionalidade do Protótipo (IV):** Especificar quais funcionalidades serão implementadas no protótipo.
+    3. **Desenvolver o Protótipo (III):** Criar o protótipo com base nas funcionalidades definidas.
+    4. **Avaliar Protótipo (I):**  Testar e analisar o protótipo para verificar se atende aos objetivos.
 
-**4. (C) Unidade de Dados de Protocolo**
+**Questão 4:**
 
-* No processo de encapsulamento, cada camada adiciona seu próprio cabeçalho à informação da camada superior. A unidade lógica resultante, contendo a informação da camada superior e o cabeçalho da camada atual, é chamada de Unidade de Dados de Protocolo (PDU).
+* **Pergunta:** Técnica comumente utilizada na identificação de riscos, se realiza através de uma reunião com uma equipe multidisciplinar, a reunião é promovida por meio de um facilitador e tem como objetivo listar os riscos do projeto. Marque a alternativa que indica a técnica descrita acima.
+* **Resposta Correta:** **E) Brainstorm.**
+* **Justificativa:**  Brainstorming é uma técnica de brainstorming que visa gerar ideias e soluções através da participação de um grupo, com o objetivo de identificar os possíveis riscos em um projeto.
 
-**5. (D) ARP é responsável por realizar a tradução do endereço lógico para o endereço físico.**
+**Questão 5:**
 
-* ARP (Address Resolution Protocol) é um protocolo que traduz endereços IP (lógicos) em endereços MAC (físicos) para que a comunicação possa ocorrer na rede.
+* **Pergunta:** Em um projeto de software, a equipe de desenvolvimento se depara com a tarefa de medir a qualidade do produto final. Eles consideram diferentes métricas para avaliar aspectos como eficiência, confiabilidade e usabilidade. Qual destas métricas é primordial para avaliar a eficiência de um software?
+* **Resposta Correta:** **A) Tempo de resposta do sistema.**
+* **Justificativa:** A eficiência de um software está diretamente ligada ao seu tempo de resposta, ou seja, a rapidez com que ele processa as informações e entrega resultados ao usuário. 
 
-**6. (A) Transporte.**
+**Questão 6:**
 
-* A camada de transporte da arquitetura TCP/IP é responsável por fornecer serviços confiáveis ou não confiáveis à camada de aplicação. Ela gerencia a comunicação entre processos (aplicativos) em hosts diferentes.
+* **Pergunta:** Um gerente de projeto de software está analisando o impacto do controle de qualidade nos custos do projeto. Ele avalia como diferentes práticas de controle de qualidade podem afetar o custo total e a eficácia do software entregue. Qual prática de controle de qualidade é mais efetiva para minimizar erros de software durante a fase de desenvolvimento?
+* **Resposta Correta:** **B) Uso frequente de auditorias de qualidade.**
+* **Justificativa:**  Auditorias de qualidade regulares permitem a identificação precoce de erros e falhas durante o desenvolvimento, evitando que problemas maiores surjam nas etapas posteriores, reduzindo custos e tempo de correção.
 
-**7. (B) Vetor de Distâncias (Distance Vector) e Estado de Enlace (Link State)**
+**Questão 7:**
 
-* RIP (Routing Information Protocol) é um protocolo de roteamento baseado em vetor de distâncias, onde cada roteador compartilha informações sobre seus vizinhos e distâncias para outros roteadores. 
-* OSPF (Open Shortest Path First) é um protocolo de roteamento baseado em estado de enlace, onde cada roteador possui um mapa completo da topologia da rede e calcula o caminho mais curto para cada destino.
+* **Pergunta:** Na engenharia de software, o gerenciamento de configuração de software tem como objetivo:
+* **Resposta Correta:** **A) Gerenciar mudanças e seu impacto no desenvolvimento do software.**
+* **Justificativa:**  O gerenciamento de configuração de software (SCM) visa controlar as alterações no código-fonte, documentação e outros artefatos do projeto, garantindo a rastreabilidade, a integridade e a consistência do software durante todo o ciclo de vida.
 
-**8. (D) Perda da conexão dos datagramas.**
+**Questão 8:**
 
-* Redes de datagramas, como o IP, enviam pacotes de forma independente. 
-*  As seguintes são problemas comuns:
-    * **Datagramas chegarem com erro:** Corrupção dos dados durante a transmissão.
-    * **Datagramas chegarem fora de ordem:**  Os datagramas podem seguir diferentes rotas, levando a uma ordem de chegada diferente.
-    * **Duplicação de datagramas:**  Um datagrama pode ser copiado durante a transmissão, resultando em múltiplas cópias chegando ao destino.
-    * **Perda de datagramas:**  Um datagrama pode ser descartado durante a transmissão,  devido a congestionamento ou erros.
+* **Pergunta:** Gerência de Configuração de Software é um conjunto de atividades de apoio, que permite a absorção controlada das mudanças, inerentes ao desenvolvimento de software, mantendo a estabilidade na evolução do projeto. Podemos dividir o Gerenciamento de Configuração de Software em três níveis: 
+* **Resposta Correta:** **A) Controle de versão: identifica em qual versão está o software e quais as caracteriscas de cada versão. Controle de mudanças: identifica quais foram as mudanças, efetuadas na versão. Integração contínua: tem como características testar as mudanças, assim que são realizadas.**
+* **Justificativa:** Essa resposta descreve corretamente os três níveis de Gerenciamento de Configuração de Software:
+    * **Controle de versão:**  Rastrea as diferentes versões do software e suas características.
+    * **Controle de mudanças:**  Gerencia as alterações no software, incluindo a autorização e a documentação.
+    * **Integração contínua:** Automatiza a integração e os testes das alterações no código-fonte, garantindo a qualidade.
 
-**9. (E) Segmento**
+**Questão 9:**
 
-* A PDU (Protocol Data Unit) do protocolo TCP é chamada de segmento.
+* **Pergunta:** Em Engenharia de Software, os requisitos desempenham um papel fundamental na determinação das necessidades de um sistema de software. Qual a definição de “requisito”?
+* **Resposta Correta:** **C) São descrições dos serviços fornecidos pelo sistema e as suas restrições operacionais.**
+* **Justificativa:**  Requisitos são as descrições detalhadas das funcionalidades, características e restrições que o software deve ter para atender às necessidades do cliente.
 
-**10. (B) A arquitetura peer-to-peer é mais escalável, embora seu gerenciamento seja mais complexo que na arquitetura cliente/servidor.**
+**Questão 10:**
 
-* **Arquitetura Cliente/Servidor:**  Um servidor centralizado atende a vários clientes. É mais fácil de gerenciar, mas menos escalável. 
-* **Arquitetura Peer-to-Peer:**  Os nós da rede atuam como clientes e servidores ao mesmo tempo, sem um servidor central. É mais escalável, mas mais complexa de gerenciar.
+* **Pergunta:** Considerando o uso do RUP (Rational Unified Process), deve-se considerar que, segundo essa técnica:
+* **Resposta Correta:** **B) O número de iterações em cada uma de suas quatro fases é variável, conforme o projeto.**
+* **Justificativa:** O RUP é um processo iterativo e incremental, o que significa que o número de iterações em cada fase é flexível e depende da complexidade do projeto.
 
-**Lembre-se:** As respostas acima podem variar ligeiramente dependendo do contexto específico da prova e de como a questão é formulada. É importante revisar os conceitos e as definições para garantir uma compreensão profunda dos tópicos abordados. 
+**Observações:**
+
+* A prova em HTML fornecida é um exemplo de como o HTML pode ser utilizado para criar interfaces para aplicações web, incluindo testes online. 
+* A estrutura HTML foi utilizada para exibir as perguntas, alternativas de resposta, botões de navegação, cronômetro, barra de progresso e outras informações relevantes para a realização da prova.
+
+Espero que essas respostas e justificativas sejam úteis para o seu estudo e para a realização da prova. 

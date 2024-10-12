@@ -34,12 +34,12 @@ class AnalistaTexto:
 
 
 if __name__ == "__main__":
-    tema = ''
+    tema = 'Engenharia de Software'
     humaniza = AnalistaTexto()
     resultado = ''
     with open(r'./Questoes.txt','r', newline="", encoding="utf-8", errors="replace") as texto:
         resultado = texto.readlines()
 
     doc = humaniza.melhorar_documentacao(resultado,tema)
-    with open(r'./Respostas','w',encoding="utf-8") as texto:
+    with open(r'./Respostas.txt','w',encoding="utf-8") as texto:
         texto.write(doc)
