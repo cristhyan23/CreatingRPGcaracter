@@ -26,9 +26,7 @@ Com base nas informações fornecidas, aqui está uma recomendação detalhada p
 
 O equipamento precisa ser prático para a caça e, simultaneamente, ajudar a gerar renda. O ideal é um conjunto que equilibre mobilidade, poder letal, e possibilidade de extrair recursos das presas.
 
-* **Dardo de Arremesso (Letal, Tático, 4 usos):**  Arma eficiente e silenciosa para caça furtiva, ideal para aproximações estratégicas, maximizando sua alta Reação e Infiltração.
-* **Kit de primeiros socorros (Consumível, Médico, 1 uso):** Essencial para se manter vivo em ambientes perigosos, especialmente na caça de animais maiores e mais perigosos.
-* **Maleta de Ferramentas (Estabilizado, 4 usos) + Agroboy (2 pt):**  Permite a criação de armadilhas, reparos rápidos em equipamentos e a extração de materiais úteis das presas para venda ou uso na oficina (objetivo 1).  Agroboy aprimora a identificação e extração de recursos da natureza.
+Arco eFlecha
 
 **Pontos de Característica:**  Invista mais em suas práticas de Armas e Infiltração.  Considere aumentar sua Percepção para melhorar a capacidade de detectar e rastrear presas.
 

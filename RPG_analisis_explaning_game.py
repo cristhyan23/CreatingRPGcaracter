@@ -22,8 +22,7 @@ class AnalistaTexto:
         prompt = f"""
 Você é um especialista em {tema}. O arquivo fornecido contém informações do jogo que você deve analisar.
 
-**Sua missão:** me explicar de uma maneira extramente clara e simples todos os detalhes desse jogo e como o personagem abaixo pode jogar da melhor forma para vencer:
-
+**Sua missão:** escrever a historia desse personagem que odeia a mutação pois mataram a filha dele, seu sonho e matar o maior dos monstros e construir sua oficina novamente ele tem 28 anos , escreva uma historia cativante e forte com base nas descrições abaixo adicione também gostos e desgostos
 **Personagem: Caçador**
 
 **Objetivos:**
@@ -40,6 +39,7 @@ Você é um especialista em {tema}. O arquivo fornecido contém informações do
 **Mutação:** Considerando os dois objetivos, uma mutação que combine habilidades de combate, sobrevivência e potencial de lucro seria ideal. A **Assimilação Silvestre** (5 de Copas)
 * **Arco e Flecha (Letal e Duravel):**  Arma eficiente e silenciosa para caça furtiva, ideal para aproximações estratégicas, maximizando sua alta Reação e Infiltração.
 Analise o conteúdo do arquivo e forneça recomendações detalhadas.
+
 """
         try:
             resposta = self.model.generate_content([prompt, arquivo])
